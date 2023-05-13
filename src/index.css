@@ -93,10 +93,27 @@ textarea {
 }
 
 .response-container {
-  width: 80%;
-  max-width: 600px;
-  background-color: #f5f5f5;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.response-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.response-container button:hover {
+  background-color: #0056b3;
+}
+
+.response-container button:focus {
+  outline: none;
 }
